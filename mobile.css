@@ -1,0 +1,91 @@
+h1 {
+    font-size: 1.5rem;
+    height: 3rem;
+}
+
+.presentation {
+    font-size: 1.5rem;
+    display: none;
+}
+
+#accueil {
+    height: 4.5rem;
+}
+
+img {
+    
+    height: 45vh;
+    width: 67vw;
+    margin-left: 15%;
+
+}
+
+.box {
+    background-color: rgb(140, 140, 140);
+    color: white;
+    height: 9rem;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+p {
+    background-color: rgb(70, 70, 70);
+    color: white;
+    height: 10rem;
+    text-align: justify;
+    align-content: center;
+    line-height: 20px;
+}
+
+h2 {
+    margin-bottom: 2rem;
+    align-content: center;
+    width: 30rem;
+    margin-left:3rem;
+}
+
+.presentation {
+    font-size: 0.3rem;
+    font-weight: 600;
+    text-align: center;
+    background-color: brown;
+    color: antiquewhite;
+    border-radius: 10px;
+    line-height: 6px;
+    height: 12rem;
+    padding: 4rem;
+
+}
+
+.hauteur {
+    line-height: 2rem;
+    font-size: 1.5rem;
+    width: 30rem;
+    align-content: center;
+    text-align: justify;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+form {
+    margin-top: 20%;
+}
+
+#identite {
+    text-align: justify;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.box {
+    background-color: rgb(140, 140, 140);
+    color: white;
+    height: 15rem;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 6rem;
+}
+

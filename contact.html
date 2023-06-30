@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+<body>
+    <h2>contact</h2>
+    <p class="hauteur">association les Zanimos<br>15 rue des coquelicots 69005 lyon<br>telephone: 0000000000<br>email: leszanimos@yahoo.com</p>
+
+    <form>
+        <legend>formulaire d inscription en tant que bénévole</legend>
+        <label for="nom"><input type="text" name="nom" id="nom">nom</label>
+        
+        <label for="prenom"><input type="text" name="prenom" id="prenom">prenom</label>
+
+        <label for="date"><input type="date" name="date" id="date">date de naissance</label>
+        <br>
+        
+        <label for="service">
+            <input type="checkbox" name="service" id="education">
+            <option value="education" name="service">education canine</option>
+
+            <input type="checkbox" name="service" id="soins">
+            <option value="soins"  name="service">soins aux animaux</option>
+
+            <input type="checkbox" name="service" id="conseil">
+            <option value="conseil"  name="service">conseil aux adoptants</option>
+        </label>
+
+        <label for="email">email<input type="email" name="email" id="email" required></label>
+
+        <label for="telephone">telephone<input type="tel" name="telephone" id="telephone" placeholder="0000000000"></label>
+       
+        <button href="#">soumettre</button>
+        <button><a href="index.html" target="_blank">retour a l accueil</a></button>
+
+    </form>
+
+
+    
+</body>
+</html>
